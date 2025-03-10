@@ -226,7 +226,7 @@ class PoyaScraper:
             return False
         
         if filename is None:
-            filename = f"Poya_{self.query}_complete.csv"
+            filename = f"Poya_{self.query}.csv"
         
         # Ensure filename has .csv extension
         if not filename.endswith('.csv'):
